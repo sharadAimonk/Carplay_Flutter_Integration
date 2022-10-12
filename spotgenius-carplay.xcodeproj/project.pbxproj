@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BBF1642480AA5700A0602E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BBF1632480AA5700A0602E /* AppDelegate.swift */; };
+		13BBF1662480AA5700A0602E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BBF1652480AA5700A0602E /* SceneDelegate.swift */; };
+		13BBF1682480AA5700A0602E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BBF1672480AA5700A0602E /* ContentView.swift */; };
+		13BBF16A2480AA5A00A0602E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BBF1692480AA5A00A0602E /* Assets.xcassets */; };
+		13BBF16D2480AA5A00A0602E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BBF16C2480AA5A00A0602E /* Preview Assets.xcassets */; };
+		13BBF1702480AA5A00A0602E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BBF16E2480AA5A00A0602E /* LaunchScreen.storyboard */; };
+		13BBF17D2480E50000A0602E /* CarplaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BBF17C2480E50000A0602E /* CarplaySceneDelegate.swift */; };
+		2A7479A93E61559F7B35D543 /* Pods_spotgenius_carplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83DCC005A69D69C9CE35A93 /* Pods_spotgenius_carplay.framework */; };
+		C522DCE828B4208C00E3DEAE /* aes.json in Resources */ = {isa = PBXBuildFile; fileRef = C522DCE728B4208C00E3DEAE /* aes.json */; };
+		C522DCF028B4420D00E3DEAE /* iec.json in Resources */ = {isa = PBXBuildFile; fileRef = C522DCEF28B4420D00E3DEAE /* iec.json */; };
+		C5C8FE4028AD7BC200C63822 /* CarPlayMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8FE3F28AD7BC200C63822 /* CarPlayMapView.swift */; };
+		C5C8FE6F28AEEC7900C63822 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8FE6E28AEEC7900C63822 /* Spot.swift */; };
+		C5F2863328BFE20E0010D10B /* ParkingLots.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2863228BFE20E0010D10B /* ParkingLots.swift */; };
+		C5F2863528C119410010D10B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2863428C119410010D10B /* DataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13BBF1602480AA5700A0602E /* spotgenius-carplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spotgenius-carplay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BBF1632480AA5700A0602E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13BBF1652480AA5700A0602E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13BBF1672480AA5700A0602E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13BBF1692480AA5A00A0602E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13BBF16C2480AA5A00A0602E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13BBF16F2480AA5A00A0602E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13BBF1712480AA5A00A0602E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BBF1792480D36000A0602E /* spotgenius-carplay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "spotgenius-carplay.entitlements"; sourceTree = "<group>"; };
+		13BBF17C2480E50000A0602E /* CarplaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarplaySceneDelegate.swift; sourceTree = "<group>"; };
+		2F29543915E58F014A233D3E /* Pods-spotgenius-carplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spotgenius-carplay.debug.xcconfig"; path = "Target Support Files/Pods-spotgenius-carplay/Pods-spotgenius-carplay.debug.xcconfig"; sourceTree = "<group>"; };
+		9EF69846F002A372DAA68126 /* Pods-spotgenius-carplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spotgenius-carplay.release.xcconfig"; path = "Target Support Files/Pods-spotgenius-carplay/Pods-spotgenius-carplay.release.xcconfig"; sourceTree = "<group>"; };
+		C522DCE728B4208C00E3DEAE /* aes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = aes.json; sourceTree = "<group>"; };
+		C522DCEF28B4420D00E3DEAE /* iec.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = iec.json; sourceTree = "<group>"; };
+		C5C8FE3F28AD7BC200C63822 /* CarPlayMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayMapView.swift; sourceTree = "<group>"; };
+		C5C8FE6E28AEEC7900C63822 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		C5F2863228BFE20E0010D10B /* ParkingLots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLots.swift; sourceTree = "<group>"; };
+		C5F2863428C119410010D10B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E83DCC005A69D69C9CE35A93 /* Pods_spotgenius_carplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spotgenius_carplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13BBF15D2480AA5700A0602E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7479A93E61559F7B35D543 /* Pods_spotgenius_carplay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13BBF1572480AA5700A0602E = {
+			isa = PBXGroup;
+			children = (
+				13BBF1622480AA5700A0602E /* spotgenius-carplay */,
+				13BBF1612480AA5700A0602E /* Products */,
+				A8BFC046AC14A40A1D8B9132 /* Pods */,
+				542F4495E6E090062C23AE30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13BBF1612480AA5700A0602E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13BBF1602480AA5700A0602E /* spotgenius-carplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13BBF1622480AA5700A0602E /* spotgenius-carplay */ = {
+			isa = PBXGroup;
+			children = (
+				13BBF1632480AA5700A0602E /* AppDelegate.swift */,
+				C5F2863128BFE1FA0010D10B /* ParkingLots */,
+				C5C8FE7028AEEC7E00C63822 /* SpotPolygons */,
+				13BBF17E2480E50400A0602E /* iPhone */,
+				13BBF17F2480E50D00A0602E /* CarPlay */,
+				13BBF1802480E51A00A0602E /* Supporting Files */,
+				13BBF16B2480AA5A00A0602E /* PreviewContent */,
+			);
+			path = "spotgenius-carplay";
+			sourceTree = "<group>";
+		};
+		13BBF16B2480AA5A00A0602E /* PreviewContent */ = {
+			isa = PBXGroup;
+			children = (
+				13BBF16C2480AA5A00A0602E /* Preview Assets.xcassets */,
+			);
+			path = PreviewContent;
+			sourceTree = "<group>";
+		};
+		13BBF17E2480E50400A0602E /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				13BBF1652480AA5700A0602E /* SceneDelegate.swift */,
+				13BBF1672480AA5700A0602E /* ContentView.swift */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		13BBF17F2480E50D00A0602E /* CarPlay */ = {
+			isa = PBXGroup;
+			children = (
+				13BBF17C2480E50000A0602E /* CarplaySceneDelegate.swift */,
+				C5C8FE3F28AD7BC200C63822 /* CarPlayMapView.swift */,
+			);
+			path = CarPlay;
+			sourceTree = "<group>";
+		};
+		13BBF1802480E51A00A0602E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13BBF1692480AA5A00A0602E /* Assets.xcassets */,
+				13BBF16E2480AA5A00A0602E /* LaunchScreen.storyboard */,
+				13BBF1712480AA5A00A0602E /* Info.plist */,
+				13BBF1792480D36000A0602E /* spotgenius-carplay.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		542F4495E6E090062C23AE30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E83DCC005A69D69C9CE35A93 /* Pods_spotgenius_carplay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8BFC046AC14A40A1D8B9132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F29543915E58F014A233D3E /* Pods-spotgenius-carplay.debug.xcconfig */,
+				9EF69846F002A372DAA68126 /* Pods-spotgenius-carplay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5C8FE7028AEEC7E00C63822 /* SpotPolygons */ = {
+			isa = PBXGroup;
+			children = (
+				C522DCE728B4208C00E3DEAE /* aes.json */,
+				C522DCEF28B4420D00E3DEAE /* iec.json */,
+				C5C8FE6E28AEEC7900C63822 /* Spot.swift */,
+			);
+			path = SpotPolygons;
+			sourceTree = "<group>";
+		};
+		C5F2863128BFE1FA0010D10B /* ParkingLots */ = {
+			isa = PBXGroup;
+			children = (
+				C5F2863228BFE20E0010D10B /* ParkingLots.swift */,
+				C5F2863428C119410010D10B /* DataManager.swift */,
+			);
+			path = ParkingLots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13BBF15F2480AA5700A0602E /* spotgenius-carplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BBF1742480AA5A00A0602E /* Build configuration list for PBXNativeTarget "spotgenius-carplay" */;
+			buildPhases = (
+				A4858268F2128CF7CF699346 /* [CP] Check Pods Manifest.lock */,
+				C6FB2ECEC80271BD560DF18C /* [CP-User] Run Flutter Build my_flutter Script */,
+				13BBF15C2480AA5700A0602E /* Sources */,
+				13BBF15D2480AA5700A0602E /* Frameworks */,
+				13BBF15E2480AA5700A0602E /* Resources */,
+				DC70C0DA1F0224AE731C54FD /* [CP-User] Embed Flutter Build my_flutter Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spotgenius-carplay";
+			productName = CarPlaySample;
+			productReference = 13BBF1602480AA5700A0602E /* spotgenius-carplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13BBF1582480AA5700A0602E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = Visint;
+				TargetAttributes = {
+					13BBF15F2480AA5700A0602E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 13BBF15B2480AA5700A0602E /* Build configuration list for PBXProject "spotgenius-carplay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13BBF1572480AA5700A0602E;
+			productRefGroup = 13BBF1612480AA5700A0602E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13BBF15F2480AA5700A0602E /* spotgenius-carplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13BBF15E2480AA5700A0602E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BBF1702480AA5A00A0602E /* LaunchScreen.storyboard in Resources */,
+				C522DCE828B4208C00E3DEAE /* aes.json in Resources */,
+				13BBF16D2480AA5A00A0602E /* Preview Assets.xcassets in Resources */,
+				13BBF16A2480AA5A00A0602E /* Assets.xcassets in Resources */,
+				C522DCF028B4420D00E3DEAE /* iec.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4858268F2128CF7CF699346 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-spotgenius-carplay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6FB2ECEC80271BD560DF18C /* [CP-User] Run Flutter Build my_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build my_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../my_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		DC70C0DA1F0224AE731C54FD /* [CP-User] Embed Flutter Build my_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build my_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../my_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13BBF15C2480AA5700A0602E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BBF1642480AA5700A0602E /* AppDelegate.swift in Sources */,
+				13BBF1662480AA5700A0602E /* SceneDelegate.swift in Sources */,
+				C5F2863328BFE20E0010D10B /* ParkingLots.swift in Sources */,
+				13BBF1682480AA5700A0602E /* ContentView.swift in Sources */,
+				C5F2863528C119410010D10B /* DataManager.swift in Sources */,
+				C5C8FE4028AD7BC200C63822 /* CarPlayMapView.swift in Sources */,
+				13BBF17D2480E50000A0602E /* CarplaySceneDelegate.swift in Sources */,
+				C5C8FE6F28AEEC7900C63822 /* Spot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13BBF16E2480AA5A00A0602E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13BBF16F2480AA5A00A0602E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13BBF1722480AA5A00A0602E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13BBF1732480AA5A00A0602E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13BBF1752480AA5A00A0602E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F29543915E58F014A233D3E /* Pods-spotgenius-carplay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "spotgenius-carplay/spotgenius-carplay.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "spotgenius-carplay/PreviewContent";
+				DEVELOPMENT_TEAM = DRQ73CFMK9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "spotgenius-carplay/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visint.spotgenius-carplay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13BBF1762480AA5A00A0602E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF69846F002A372DAA68126 /* Pods-spotgenius-carplay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "spotgenius-carplay/spotgenius-carplay.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "spotgenius-carplay/PreviewContent";
+				DEVELOPMENT_TEAM = DRQ73CFMK9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "spotgenius-carplay/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.visint.spotgenius-carplay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13BBF15B2480AA5700A0602E /* Build configuration list for PBXProject "spotgenius-carplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BBF1722480AA5A00A0602E /* Debug */,
+				13BBF1732480AA5A00A0602E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13BBF1742480AA5A00A0602E /* Build configuration list for PBXNativeTarget "spotgenius-carplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BBF1752480AA5A00A0602E /* Debug */,
+				13BBF1762480AA5A00A0602E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13BBF1582480AA5700A0602E /* Project object */;
+}
